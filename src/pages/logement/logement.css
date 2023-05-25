@@ -1,0 +1,28 @@
+.logement{
+   max-width: 1240px;
+   margin: 30px auto;
+}
+
+.details-container{
+   display:flex;
+   gap:3rem;
+   font-family:"Montserrat";
+   margin: 30px auto;
+   max-width: 1240px;
+}
+
+@media (max-width:1230px) {
+   .details-container{
+      max-width: 95%;
+   }
+}
+
+@media (max-width:620px) {
+   .details-container{
+      flex-direction: column;
+      gap:1rem;
+      justify-content: center;
+      align-items: center;
+   }
+   
+}
