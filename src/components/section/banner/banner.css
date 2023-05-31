@@ -42,7 +42,13 @@
     font-style: normal;
     font-weight: 500;
     z-index:3;
+    white-space: nowrap;
 }
+
+.responsive-line-break {
+    display: none;
+  }
+
 
 @media (max-width:1230px){
     .banner-container{
@@ -50,6 +56,16 @@
     }
 }
 
+@media (max-width: 768px) {
+    .banner-text {
+      white-space: initial; 
+    }
+  
+    .responsive-line-break {
+      display: inline; 
+    }
+  }
+  
 @media (max-width:620px) {
     .banner-text{
         font-size: 34px;

@@ -56,21 +56,29 @@
     z-index:4;
   }
 
+  @media (max-width:768px) {
+    .card{
+      margin: 30px 20px ;
+      
+    }
+  }
+
   @media (max-width:620px) {
     .card{
-      height: 280px ;
+      height: 280px;
     }
   }
 
   @media (max-width:480px) {
     .card{
-      height: 190px ;
+      height: 190px;
+      margin: 20px 15px;
     }
   }
 
   @media (max-width:350px) {
     .card{
-      height: 150px ;
+      height: 150px;
     }
   }
 

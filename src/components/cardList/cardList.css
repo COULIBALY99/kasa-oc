@@ -22,7 +22,6 @@
 
   @media (max-width:1030px) {
     .card-list-container{
-        gap:25px;
         padding: 40px 35px;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -33,19 +32,21 @@
   @media (max-width:768px) {
     .card-list-container{
       grid-template-columns: 1fr;
-      margin: 0 19px;
+      margin:0;
+      padding: 0;
+     max-width: 100%;
     }
   }
 
   @media (max-width:620px) {
     .card-list-container{
-      margin: 0 15px;
+      margin:0;
     }
   }
 
-  @media (max-width:500px){
+  @media (max-width:480px){
     .card-list-container{
-      margin: 0 11px;
+      margin: 0;
     }
   }
 
